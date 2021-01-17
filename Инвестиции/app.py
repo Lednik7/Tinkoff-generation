@@ -79,5 +79,6 @@ with open("new.csv", "r") as f:
 k = int(input("Введите кол-во транзакций: "))
 total_money = float(input("Введите начальную сумму: "))
 t = time.time()
+print("Подождите немного\n")
 result = get_info(records, k, total_money, range(1, 30))
 print(f"RunTime: {round(time.time() - t, 2)}")
