@@ -63,5 +63,5 @@ def start_game():
                     print_field(board)
                     board[i][j] = solved[i][j]
                     print(f"Строка: {i + 1} Колонка: {j + 1} Значение: {solved[i][j]}")
-
+        print_field(board)
 start_game()
